@@ -17,7 +17,27 @@ const Table = () => {
             <td>producto 1</td>
             <td>100</td>
             <td>10</td>
-            <td></td>
+            <td>
+              <button type="button" className="btn btn-primary">
+                Editar
+              </button>
+              <button type="button" className="btn btn-danger">
+                Eliminar
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>producto 1</td>
+            <td>100</td>
+            <td>10</td>
+            <td>
+              <button type="button" className="btn btn-primary">
+                Editar
+              </button>
+              <button type="button" className="btn btn-danger">
+                Eliminar
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>
